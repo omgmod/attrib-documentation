@@ -664,6 +664,7 @@ Unsure, maybe related to possible trajectories the projectile can from straight 
 Sources:\
 [cohstats](http://hq-coh.com/stats/coh-stats.com/Info_Weapon_Statistics.html)\
 [relicnews](https://web.archive.org/web/20140916064941/http://forums.relicnews.com/showthread.php?232509-How-To-Edit-Weapon-Stats-*finished*)
+[dps basics](https://community.companyofheroes.com/discussion/231279/a-guide-to-d-p-s-basics)
 
 ---
 #### Copy pasted notes on DPS:
