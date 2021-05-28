@@ -78,7 +78,7 @@ Used to upgrade the unit when requirements are met. Complex schema
 
 `combat_ext` `hardpoints` Vehicles can have multiple hardpoints
 * `hardpoint_01`
-    * `weapon_table `weapon_0X` `weapon` References **_[weapon]_**
+    * `weapon_table` `weapon_0X` `weapon` References **_[weapon]_**
     * `parent_hardpoint` reference to parent hardpoint number if there is one
 * `hardpoint_02`    
 * `hardpoint_03`
@@ -225,13 +225,13 @@ Name will match that of the corresponding gun's `construction_ext` `construction
 `ability_ext` `abilities` `ability_0X` References **_[abilities]_**
 
 `action_apply_ext` `actions` `ability_actions` `action_01`
-    * `action_table` `ability_actions` `action_01` References **_[action]_** most likely `[[action\ability_action\apply_modifiers_action.lua]]`
-        * `modifiers` `modifier_01` References **_[modifiers]_**
-            * `application_type`
-            * `usage_type`
-            * `value`
-    * `requirement_table` `required_1` References **_[requirements]_** most likely `[[requirements\required_player_upgrade.lua]]`
-        * `upgrade_name` References **_[upgrade]_**
+ * `action_table` `ability_actions` `action_01` References **_[action]_** most likely `[[action\ability_action\apply_modifiers_action.lua]]`
+     * `modifiers` `modifier_01` References **_[modifiers]_**
+         * `application_type`
+         * `usage_type`
+         * `value`
+ * `requirement_table` `required_1` References **_[requirements]_** most likely `[[requirements\required_player_upgrade.lua]]`
+     * `upgrade_name` References **_[upgrade]_**
 
 `combat_ext` `hardpoints` `hardpoint_01` `weapon_table` `weapon_01` `weapon` references **_[weapon]_**
 
