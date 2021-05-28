@@ -6,4 +6,6 @@
 
 * `slot_size`
 
-* `weapon` References **_[weapon]_**
+* `weapon`
+  * `type`
+  * `weapon` References **_[weapon]_**
