@@ -23,8 +23,11 @@ Types of entities we care about:
 `combat_ext` `hardpoints` `hardpoint_01` `weapon_table` `weapon_01` `weapon` References **_[weapon]_**\
  infantry should have 1 hardpoint 
 
-`cover_ext`
-Speed multipliers for different cover types
+`cover_ext` Speed multipliers for different cover types
+* `tp_X`
+   * `actions` `action_0X` References **_[actions]_**
+   * `speed_multiplier`
+   * `safety_value`
 
 `health_ext`
 * `hitpoints`
