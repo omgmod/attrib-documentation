@@ -39,7 +39,22 @@ action modifiers for damage and different duration times.
     set to false so that it does not appear when that docmarker is present, while the stronger `[[abilities\allied_at_apc_shell_T1.rgd]]`
     does need that docmarker present. 
     
-    
+## Construction
+
+### Emplacements
+* Emplacement builder sbps has loadout with 1 emplacement builder ebps
+* Emplacement builder ebps has `engineer_ext` `construction_menus` `construction_menu_01`\
+    `construction_type` which is the construction menu type
+* Emplacement gun ebps has `construction_ext` `construction_menus` `construction_menu_entry_01`\
+    `construction_type` which should map to the builder's `construction_type`
+
+### Engineer buildings
+* Engineer ebps has `engineer_ext` `construction_menus` `construction_menu_01`\
+    `construction_type` which is the construction menu type
+* Building ebps has `construction_ext` `construction_menus` `construction_menu_entry_01`\
+    `construction_type` which should map to the engineer's `construction_type`
+    * The building also has a `requirement_ext` which specifies the player upgrade that is required to build the building
+
 
 1. So from the battle file side, we know the set of all units and upgrades that are selectable in game.
 2. We can get the CONSTNAMES for those units and upgrades
